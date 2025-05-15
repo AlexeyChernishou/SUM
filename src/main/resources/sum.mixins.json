@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.sum.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"SUMMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
