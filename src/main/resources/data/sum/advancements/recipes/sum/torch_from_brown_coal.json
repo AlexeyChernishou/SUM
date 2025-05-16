@@ -1,0 +1,32 @@
+{
+  "parent": "sum:recipes/root",
+  "criteria": {
+    "has_stone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sum:torch_from_brown_coal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sum:torch_from_brown_coal"
+    ]
+  }
+}
