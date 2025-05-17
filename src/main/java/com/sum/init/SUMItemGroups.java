@@ -22,6 +22,7 @@ public class SUMItemGroups {
 		
 		registerItemGroup(SUM_MAIN, SUM_MAIN_KEY);
 		
+		modifyItemGroup(SUMBlocks.BROWN_COAL_BLOCK.asItem(), SUM_MAIN_KEY);
 		modifyItemGroup(SUMItems.BROWN_COAL, SUM_MAIN_KEY);
 		
 	}
